@@ -3,7 +3,13 @@ kit:
   link: https://github.com/qubell/starter-java-web
   applications:
     - name: Java 3-tier Starter Kit
-      manifest: https://raw.github.com/qubell/starter-java-web/master/manifest.yml
+      manifest: https://raw.github.com/jollyrojer/component-petclinic-main/master/main_app.yml
+    - name: MySQL DB component
+      manifest: https://raw.github.com/jollyrojer/component-mysql/master/mysql.yml
+    - name: Tomcat component
+      manifest: https://raw.github.com/jollyrojer/component-tomcat/master/tomcat.yml
+    - name: Haproxy component
+      manifest: https://raw.github.com/jollyrojer/component-haproxy/master/haproxy.yml
   provider:
     name: "Qubell"
     link: http://qubell.com
