@@ -8,7 +8,7 @@ kit:
       manifest: https://raw.github.com/jollyrojer/component-mysql/master/mysql.yml
     - name: Tomcat component
       manifest: https://raw.github.com/jollyrojer/component-tomcat/master/tomcat.yml
-    - name: Haproxy component
+    - name: HaProxy component
       manifest: https://raw.github.com/jollyrojer/component-haproxy/master/haproxy.yml
   provider:
     name: "Qubell"
